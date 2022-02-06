@@ -37,7 +37,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit product specific makefiles
 $(call inherit-product, device/google/walleye/device.mk)
@@ -45,7 +45,7 @@ $(call inherit-product, vendor/google/walleye/walleye-vendor.mk)
 
 PRODUCT_MANUFACTURER := Google
 PRODUCT_BRAND := google
-PRODUCT_NAME := aosp_walleye
+PRODUCT_NAME := lineage_walleye
 PRODUCT_DEVICE := walleye
 PRODUCT_MODEL := Pixel 2
 
